@@ -34,7 +34,7 @@
 <body>
 <header>
   <h1>미니 게임 모음</h1>
-  <p>브라우저에서 바로 즐기는 작은 게임 14편. 카드를 누르면 새 탭에서 열려요.</p>
+  <p>브라우저에서 바로 즐기는 작은 게임 18편. 카드를 누르면 새 탭에서 열려요.</p>
 </header>
 <div class="filters" id="filters" role="group" aria-label="종류 필터"></div>
 <main id="grid"></main>
@@ -56,6 +56,10 @@
     { path: '3d/', name: '3D 프로토타입', desc: '3D 캐릭터를 움직이며 둘러보는 프로토타입.', tag: '3D', icon: '🧊', grad: ['#3a5a3a', '#8ad98a'] },
     { path: 'learn2d/', name: '2D 게임 배우기', desc: '2D 게임 만들기의 기본기를 직접 만져 보며 배우는 학습용.', tag: '학습', icon: '📐', grad: ['#5a4a2f', '#d9c08a'] },
     { path: 'learn3d/', name: '3D 게임 배우기', desc: '3D 게임 만들기의 기본기를 직접 만져 보며 배우는 학습용.', tag: '학습', icon: '📦', grad: ['#4a2f5a', '#b88ad9'] },
+    { path: 'relay/', name: '마지막 중계소', desc: '버려진 중계소를 돌며 부품을 모아 스스로를 강화하는 탑다운 액션.', tag: '액션', icon: '📡', grad: ['#1d2a3a', '#4a7aa8'] },
+    { path: 'topview/', name: '탑뷰 어드벤처', desc: '마을을 거닐며 사람과 대화하고 열쇠를 찾는 탑뷰 어드벤처.', tag: '어드벤처', icon: '🗝️', grad: ['#3a5a2f', '#a8c86a'] },
+    { path: 'tunguska/', name: '퉁구스카의 비밀', desc: '눈보라 속 버려진 소련 연구 기지의 단서를 조사하는 방탈출 어드벤처.', tag: '추리', icon: '❄️', grad: ['#2a3a4a', '#8aa8c0'] },
+    { path: 'robotbuilder/', name: '메이드로봇 만들기', desc: '바디부터 코어까지 부품을 골라 나만의 메이드로봇을 조립하는 시뮬레이터.', tag: '시뮬레이션', icon: '🛠️', grad: ['#a85a7a', '#f0a0b8'] },
   ]
   const grid = document.getElementById('grid')
   const filters = document.getElementById('filters')
