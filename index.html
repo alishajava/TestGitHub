@@ -34,7 +34,7 @@
 <body>
 <header>
   <h1>미니 게임 모음</h1>
-  <p>브라우저에서 바로 즐기는 작은 게임 18편. 카드를 누르면 새 탭에서 열려요.</p>
+  <p>브라우저에서 바로 즐기는 작은 게임 18편과 유용한 앱 3개. 카드를 누르면 새 탭에서 열려요.</p>
 </header>
 <div class="filters" id="filters" role="group" aria-label="종류 필터"></div>
 <main id="grid"></main>
@@ -60,6 +60,9 @@
     { path: 'topview/', name: '탑뷰 어드벤처', desc: '마을을 거닐며 사람과 대화하고 열쇠를 찾는 탑뷰 어드벤처.', tag: '어드벤처', icon: '🗝️', grad: ['#3a5a2f', '#a8c86a'] },
     { path: 'tunguska/', name: '퉁구스카의 비밀', desc: '눈보라 속 버려진 소련 연구 기지의 단서를 조사하는 방탈출 어드벤처.', tag: '추리', icon: '❄️', grad: ['#2a3a4a', '#8aa8c0'] },
     { path: 'robotbuilder/', name: '메이드로봇 만들기', desc: '부품을 골라 메이드로봇을 조립한 뒤, 이동·말·동작·가사를 가르쳐 키우는 시뮬레이터.', tag: '시뮬레이션', icon: '🛠️', grad: ['#a85a7a', '#f0a0b8'] },
+    { path: 'todo/', name: '할 일 목록', desc: '마감일·중요 표시·진행률까지, 자동 저장되는 깔끔한 할 일 관리.', tag: '앱', icon: '✅', grad: ['#2f5fb8', '#6c97ff'] },
+    { path: 'budget/', name: '가계부', desc: '수입·지출을 기록하고 월별 잔액과 분류별 지출을 한눈에. CSV 내보내기 지원.', tag: '앱', icon: '💰', grad: ['#2f7a5a', '#6bd1a0'] },
+    { path: 'timer/', name: '집중 타이머', desc: '포모도로, 카운트다운 타이머, 랩 스톱워치를 한곳에서.', tag: '앱', icon: '⏱️', grad: ['#b8503a', '#ff9a7a'] },
   ]
   const grid = document.getElementById('grid')
   const filters = document.getElementById('filters')
